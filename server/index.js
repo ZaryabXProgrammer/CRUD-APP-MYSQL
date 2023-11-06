@@ -31,7 +31,6 @@ app.get("/api/get", (req, res) => {
         }
     });
 });
-
 // Define a route to insert data into the database
 // Define a route to handle the insertion of movie reviews into the database
 app.post('/api/insert', (req, res) => {
